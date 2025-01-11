@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina Kurser</title>
+    <link rel="stylesheet" href="utbildning.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"> Isak Holmsbo</div>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <ul class="menu" id="menu">
+           <li><a href="./ommig.html">Ommig</a> </li> 
+           <li><a href="./utbildning.html">utbildning</a> </li> 
+        </ul>
+</nav>
+
+    <header>
+        <h1>Mina Kurser</h1>
+    </header>
+
+    <section class="kurser">
+       
+
+        <ul id="kursLista">
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Engelska')">Engelska</button>
+                <div class="kurs-info" id="Engelska"> 
+                    
+                    <h3>Engelska 5</h3>
+                    <ul>
+                        <li><strong>Kommunikation och textförståelse:</strong> Fokus på att läsa och förstå olika typer av texter, som artiklar, böcker och medier.</li>
+                        <li><strong>Språkfärdigheter:</strong> Utveckling av muntlig och skriftlig kommunikation, inklusive att uttrycka egna åsikter och argument.</li>
+                        <li><strong>Grammatik och ordförråd:</strong> Fördjupning i engelska grammatikregler och utvidgning av ordförråd.</li>
+                        <li><strong>Interkulturell förståelse:</strong> Jämförelse av olika kulturer och deras påverkan på språkbruk och kommunikation.</li>
+                    </ul>
+
+                    <h3>Engelska 6</h3>
+                    <ul>
+                        <li><strong>Avancerad textanalys:</strong> Djupare analys och tolkning av litterära och icke-litterära texter, både skriftliga och muntliga.</li>
+                        <li><strong>Argumentation och diskussion:</strong> Att kunna föra längre diskussioner och argumentera för sin ståndpunkt på engelska.</li>
+                        <li><strong>Engelska i yrkeslivet:</strong> Fokus på att använda engelska i arbetslivet, till exempel i affärssammanhang och professionella e-postmeddelanden.</li>
+                        <li><strong>Språklig precision:</strong> Förbättra förmågan att använda mer avancerad grammatik och nyanserad ordförråd i tal och skrift.</li>
+                    </ul>
+
+                    <h3>Engelska 7</h3>
+                    <ul>
+                        <li><strong>Kreativt och akademiskt skrivande:</strong> Att skriva längre och mer komplexa texter, som uppsatser och analyser, med akademisk ton.</li>
+                        <li><strong>Mediekritik och diskursanalys:</strong> Att analysera och kritiskt granska medier och dess innehåll, inklusive att förstå och diskutera mediepåverkan.</li>
+                        <li><strong>Språkets roll i samhället:</strong> Undersöka hur engelska används i olika delar av världen och hur det påverkar globala och lokala samhällen.</li>
+                        <li><strong>Föredrag och presentationer:</strong> Förbereda och hålla avancerade muntliga presentationer och föredrag på engelska, med fokus på retorik och effektiv kommunikation.</li>
+                    </ul>
+
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Matematik')">Matematik</button>
+                <div class="kurs-info" id="Matematik">
+                    <h3>Matte 1c</h3>
+                    <ul>
+                        <li><strong>Algebra:</strong> Ekvationer, uttryck.</li>
+                        <li><strong>Geometri:</strong> Vinklar, area, volym.</li>
+                        <li><strong>Procent:</strong> Procentberäkningar.</li>
+                        <li><strong>Funktioner:</strong> Linjära funktioner och grafer.</li>
+                    </ul>
+                
+                    <h3>Matte 2c</h3>
+                    <ul>
+                        <li><strong>Ekvationer:</strong> Kvadrering, faktorisering.</li>
+                        <li><strong>Funktioner:</strong> Parabler, exponentialfunktioner.</li>
+                        <li><strong>Geometri:</strong> Trigonometri.</li>
+                        <li><strong>Statistik:</strong> Medelvärde, standardavvikelse.</li>
+                    </ul>
+
+                    <h3>Matte 3c</h3>
+                    <ul>
+                        <li><strong>Funktioner & Derivata:</strong> Derivata, maxima, minima.</li>
+                        <li><strong>Trigonometriska funktioner:</strong> Sinus, cosinus, tangens.</li>
+                        <li><strong>Integration:</strong> Grundläggande integraler.</li>
+                        <li><strong>Vektorer:</strong> Vektorberäkning i planet/rummet.</li>
+                    </ul>
+
+                    <h3>Matte 4 </h3>
+                    <ul>
+                        <li><strong>Exponentialfunktioner & Logaritmer:</strong> Lös ekvationer.</li>
+                        <li><strong>Derivata & Integraler:</strong> Avancerade tillämpningar.</li>
+                        <li><strong>Sannolikhet:</strong> Kombinationer, betingad sannolikhet.</li>
+                        <li><strong>Polynom:</strong> Algebra och funktioner.</li>
+                    </ul>
+
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Svenska')">Svenska</button>
+                <div class="kurs-info" id="Svenska">
+                
+                    <h3>Svenska 1</h3>
+                    <ul>
+                        <li><strong>Skriva:</strong> Textproduktion, argumentation, uppsatser.</li>
+                        <li><strong>Läsning:</strong> Litteratur, analyser av texter.</li>
+                        <li><strong>Språkbruk:</strong> Grammatik, ordförråd, språkliga normer.</li>
+                        <li><strong>Kommunikation:</strong> Muntlig och skriftlig kommunikation.</li>
+                    </ul>
+
+                    <h3>Svenska 2</h3>
+                    <ul>
+                        <li><strong>Skriva:</strong> Kritiskt skrivande, olika genrer och stilar.</li>
+                        <li><strong>Läsning:</strong> Djupare litteratur, kulturhistoria.</li>
+                        <li><strong>Språkbruk:</strong> Stilistik, språkets utveckling.</li>
+                        <li><strong>Kommunikation:</strong> Argumentation och retorik.</li>
+                    </ul>
+
+                    <h3>Svenska 3</h3>
+                    <ul>
+                        <li><strong>Skriva:</strong> Reflekterande och kritiska texter.</li>
+                        <li><strong>Läsning:</strong> Litteraturteori, tolkning av litterära verk.</li>
+                        <li><strong>Språkbruk:</strong> Finslipa språkliga uttryck och stilistiska val.</li>
+                        <li><strong>Kommunikation:</strong> Retorik och argumentation på hög nivå.</li>
+                    </ul>
+                
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Programmering')">Programmering</button>
+                <div class="kurs-info" id="Programmering">
+                
+                    <h3>Programmering 1</h3>
+                    <ul>
+                        <li><strong>Grundläggande programmering:</strong> Variabler, datatyper och kontrollstrukturer (if, loopar).</li>
+                        <li><strong>Algoritmer:</strong> Enkla algoritmer och deras användning.</li>
+                        <li><strong>Programmeringsspråk:</strong> Introduktion till Python eller Csharp.</li>
+                        <li><strong>Funktioner:</strong> Skapa och använda funktioner för att strukturera kod.</li>
+                    </ul>
+
+                    <h3>Programmering Specialisering</h3>
+                    <ul>
+                        <li><strong>Avancerad programmering:</strong> Datanätverk, avancerade algoritmer, datastrukturer (listor, träd, grafer).</li>
+                        <li><strong>Projektarbete:</strong> Utveckla större programvaror, både individuellt och i grupp.</li>
+                        <li><strong>Designmönster:</strong> Använda och skapa designmönster för att lösa vanliga programmeringsproblem.</li>
+                        <li><strong>Teknologier och verktyg:</strong> Arbeta med databaser, webbutveckling, versionhantering (Git), och ramverk.</li>
+                    </ul>
+                </div>
+            </li>
+           <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Fysik')">Fysik</button>
+                <div class="kurs-info" id="Fysik">
+                
+                <h3>Fysik 1</h3>
+                <ul>
+                    <li><strong>Mekanik:</strong> Rörelse, krafter, arbete och energi.</li>
+                    <li><strong>Värme:</strong> Termodynamik, värmeöverföring och termiska egenskaper.</li>
+                    <li><strong>Elektricitet:</strong> Elektriska fält, ström, spänning och Ohms lag.</li>
+                    <li><strong>Vågrörelse:</strong> Ljud, ljus, reflektion, brytning och interferens.</li>
+                </ul>
+
+                <h3>Fysik 2</h3>
+                <ul>
+                    <li><strong>Magnetism:</strong> Magnetiska fält, elektromagnetism och induktion.</li>
+                    <li><strong>Elektriska kretsar:</strong> Växelström, kondensatorer och induktorer.</li>
+                    <li><strong>Modern fysik:</strong> Relativitetsteori, kvantfysik, och kärnfysik.</li>
+                    <li><strong>Atomfysik:</strong> Atomer, fotoner och kvantmekanik.</li>
+                </ul>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Kemi')">Kemi</button>
+                <div class="kurs-info" id="Kemi">
+                
+                <h3>Kemi 1</h3>
+                <ul>
+                    <li><strong>Atomer och molekyler:</strong> Grundläggande kemi, atomens uppbyggnad, kemiska bindningar.</li>
+                    <li><strong>Stökiometri:</strong> Beräkningar av ämnens mängder och reaktioner.</li>
+                    <li><strong>Kemiska reaktioner:</strong> Reaktionsformler, oxidation-reduktion, syror och baser.</li>
+                    <li><strong>Organisk kemi:</strong> Kolväten, funktionella grupper och enkel organiskt kemisk struktur.</li>
+                    <li><strong>Fysikalisk kemi:</strong> Lösningar, koncentration och pH-värde.</li>
+                </ul>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Historia')">Historia</button>
+                <div class="kurs-info" id="Historia">
+                
+                <h3>Historia 1</h3>
+                <ul>
+                    <li><strong>Forntid och antiken:</strong> Människans tidiga historia, de första civilisationerna och antikens Grekland och Rom.</li>
+                    <li><strong>Medeltiden:</strong> Feodalism, kyrkans roll, och framväxten av europeiska riken.</li>
+                    <li><strong>Renässans och upplysning:</strong> Vetenskaplig revolution, filosofi och samhällsutveckling i Europa.</li>
+                    <li><strong>Modern historia:</strong> Franska revolutionen, industrialisering och kolonialism.</li>
+                </ul>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Samhällskunskap')">Samhällskunskap</button>
+                <div class="kurs-info" id="Samhällskunskap">
+                
+                <h3>Samhällskunskap 1</h3>
+                <ul>
+                    <li><strong>Samhällets uppbyggnad:</strong> Hur samhällen är organiserade, politiska system och maktfördelning.</li>
+                    <li><strong>Demokrati och politik:</strong> Demokratins funktioner, rättigheter, politiska ideologier och val.</li>
+                    <li><strong>Ekonomi:</strong> Grundläggande ekonomiska system, marknadsekonomi och ekonomiska kretslopp.</li>
+                    <li><strong>Internationella relationer:</strong> Sveriges och andra länders roll i världspolitik och globala organisationer.</li>
+                </ul>
+                </div>
+
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Webbutveckling')">Webbutveckling</button>
+                <div class="kurs-info" id="Webbutveckling">
+
+                <h3>Webbutveckling 1</h3>
+                    <ul>
+                        <li><strong>HTML och CSS:</strong> Grundläggande webbsidesstruktur, HTML-taggar och CSS-styling.</li>
+                        <li><strong>Responsiv design:</strong> Skapa webbsidor som fungerar på alla enheter genom användning av media queries.</li>
+                        <li><strong>Webbstandarder:</strong> Säkerställa att koden följer webben standarder för tillgänglighet och kompatibilitet.</li>
+                        <li><strong>Grunder i JavaScript:</strong> Interaktivitet på webbsidan med grundläggande JavaScript-programmering.</li>
+                    </ul>
+                </div>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Teknik')">Teknik</button>
+                <div class="kurs-info" id="Teknik">
+                
+                <h3>Teknik 1</h3>
+                <ul>
+                    <li><strong>Tekniska system:</strong> Grundläggande förståelse för hur tekniska system fungerar och deras komponenter.</li>
+                    <li><strong>Produktutveckling:</strong> Från idé till färdig produkt. Designprocesser och prototyper.</li>
+                    <li><strong>Tekniska lösningar:</strong> Problemlösning, att utveckla och anpassa tekniska lösningar för olika behov.</li>
+                    <li><strong>Teknikens påverkan:</strong> Hur tekniska lösningar påverkar samhället, miljön och individen.</li>
+                </ul>
+
+                <h3>Teknik Specialisering</h3>
+                <ul>
+                    <li><strong>Avancerad produktutveckling:</strong> Fördjupad arbete med att utveckla och designa komplexa tekniska produkter och system.</li>
+                    <li><strong>Forskning och innovation:</strong> Teknisk forskning och användning av ny teknik för att driva innovation.</li>
+                    <li><strong>Hållbar teknik:</strong> Utveckling av tekniska lösningar som är hållbara och miljövänliga.</li>
+                    <li><strong>Projektledning:</strong> Att leda och organisera tekniska projekt från start till mål, inklusive riskbedömning och resurshantering.</li>
+                </ul>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Logistik')">Logistik</button>
+                <div class="kurs-info" id="Logistik">
+                
+                <h3>Logistik 1</h3>
+                <ul>
+                    <li><strong>Transportkedjor:</strong> Planering och optimering av flöden från leverantörer till kunder.</li>
+                    <li><strong>Logistikens funktioner:</strong> Lagerhantering, materialflöden och distributionssystem.</li>
+                    <li><strong>Supply Chain Management:</strong> Hantering av hela kedjan från råvaror till färdiga produkter och leverans till kund.</li>
+                    <li><strong>Logistiska system och teknik:</strong> Användning av IT och tekniska lösningar för att effektivisera logistikoperationer.</li>
+                </ul>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Religion')">Religion</button>
+                <div class="kurs-info" id="Religion">
+
+                <h3>Religion 1</h3>
+                    <ul>
+                        <li><strong>Religiösa traditioner:</strong> Introduktion till världens stora religioner, som kristendom, islam, judendom, hinduism och buddhism.</li>
+                        <li><strong>Religiösa skrifter:</strong> De heliga texterna inom olika religioner, deras innehåll och betydelse.</li>
+                        <li><strong>Religiös utveckling:</strong> Religionens roll genom historien och hur olika religiösa traditioner har utvecklats över tid.</li>
+                        <li><strong>Religiösa högtider och ritualer:</strong> Fira och förstå religiösa högtider, bön, offer och andra religiösa handlingar.</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Idrott och hälsa')">Idrott och hälsa</button>
+                <div class="kurs-info" id="Idrott och hälsa">
+                
+                <h3>Idrott och hälsa 1</h3>
+                <ul>
+                    <li><strong>Fysisk aktivitet:</strong> Betydelsen av fysisk aktivitet för hälsa och välmående. Övningar för styrka, uthållighet, rörlighet och koordination.</li>
+                    <li><strong>Hälsosamma livsstilar:</strong> Kostens påverkan på hälsa, sömn och återhämtning, samt psykologiska faktorer som stresshantering och mental hälsa.</li>
+                    <li><strong>Idrottens roll i samhället:</strong> Idrottens påverkan på sociala relationer, gruppdynamik och samhällets värderingar.</li>
+                    <li><strong>Skadeförebyggande:</strong> Tekniker och övningar för att förebygga idrottsskador och hur man återhämtar sig efter skador.</li>
+                </ul>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Företagsekonomi')">Företagsekonomi</button>
+                <div class="kurs-info" id="Företagsekonomi">
+                
+                <h3>Företagsekonomi 1</h3>
+                <ul>
+                    <li><strong>Ekonomiska principer:</strong> Grunderna inom företagsekonomi, som affärsidéer, marknadsföring och ekonomiska modeller.</li>
+                    <li><strong>Redovisning:</strong> Introduktion till bokföring, balansräkningar, resultaträkningar och ekonomiska rapporter.</li>
+                    <li><strong>Företagsorganisation:</strong> Olika typer av företagsstrukturer och hur de påverkar verksamhetens ledning och beslutsfattande.</li>
+                    <li><strong>Ekonomistyrning:</strong> Grundläggande metoder för att planera och följa upp företagets ekonomiska resultat och mål.</li>
+                </ul>
+
+                <h3>Företagsekonomi Specialisering</h3>
+                <ul>
+                    <li><strong>Strategisk ledning:</strong> Hur man utvecklar långsiktiga strategier för företags tillväxt och konkurrensfördelar.</li>
+                    <li><strong>Finansiell analys:</strong> Djupare förståelse för finansiella nyckeltal, kassaflöde och finansiell prognos.</li>
+                    <li><strong>Internationell ekonomi:</strong> Hur företag bedriver handel och investeringar på en global marknad och hanterar valutaflöden.</li>
+                    <li><strong>Entreprenörskap:</strong> Fördjupning i hur man startar och leder ett företag, inklusive affärsplanering och riskhantering.</li>
+                </ul>
+                </div>
+            </li>
+            <li class="kurs-post">
+                <button class="kurs-knapp" onclick="visaInfo('Webbserverprogrammering')">Webbserverprogrammering</button>
+                <div class="kurs-info" id="Webbserverprogrammering">
+                
+                <h3>Webbserverprogrammering 1</h3>
+                <ul>
+                    <li><strong>Webbserverns funktion:</strong> Förståelse för hur webbservrar fungerar och hur de hanterar HTTP-förfrågningar.</li>
+                    <li><strong>Server-side programmering:</strong> Grunderna i server-side språk som PHP, Python (Django/Flask) och Node.js.</li>
+                    <li><strong>Databasintegration:</strong> Koppling av webbservern till databaser för att hantera och lagra användardata, inklusive användning av SQL och NoSQL.</li>
+                    <li><strong>Autentisering och säkerhet:</strong> Grundläggande säkerhetsprinciper, såsom inloggning, sessionshantering och skydd mot vanliga attacker (XSS, SQL injection, etc.).</li>
+                </ul>
+                
+                </div>
+
+            
+        </ul>
+    </section>
+
+    <footer class="footer"> 
+        <div class="footerinsida"> 
+            <p> © 2025 Webbansvarig: Isak Holmsbo </p>
+            <p> 07isahol@skola.boras.se </p>
+            <ul class="länkar">
+            <li><a href="index.html" class="länkar"> Startsida</a></li>
+            <li><a href="ommig.html" class="länkar"> Ommig</a></li>
+            <li><a href="utbildning.html" class="länkar"> Tillbaka till toppen</a></li>
+            </ul>
+        </footer>
+        </div>
+    <script src="hamburger.js"></script>
+</body>
+</html>

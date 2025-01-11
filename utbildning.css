@@ -1,0 +1,209 @@
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1em;
+    color: white;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  
+  .menu {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .menu li{
+    margin: 0 15px;
+  
+  }
+  
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+  
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      text-align: right;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .menu.active {
+      display: block;
+    }
+  
+    .menu a {
+      padding: 1em;
+      border-bottom: 1px solid white;
+    }
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.kurser {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kurs-post {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.kurs-knapp {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.kurs-knapp:hover {
+    background-color: #45a049;
+}
+
+.kurs-info {
+    display: none; 
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+.länkar{
+    margin: 10px;
+    text-decoration: none;
+    }
+    
+    .footer .footerinsida{
+    max-width: 800px;
+    margin: 0 auto;
+      }
+    
+      .footer p {
+        margin: 10px 0;
+        font-weight: 400;
+    
+      }
+    
+      .footer .länkar{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      
+    .footer länkar li{
+        margin: 0 10px;
+      }
+    
+    .footer .länkar a{
+        color: rgb(28, 255, 7);
+       font-size: 1.5em;
+       transition: transform 0.3s, color 0.3s;
+      }
+    
+    .footer .länkar a:hover{
+        color: #FFD700;
+        transform: scale(1.2);
+      }
+    
+    
+    
+      .footer{
+        background: linear-gradient(to right, #00f5e5, #000000);
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 40px;
+        font-size: 0.9em;
+        position: relative;
+      }
+    
+    
+    
+    
+    body{
+        background-color: rgb(33, 161, 165);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin:0;
+        
+      }
+      
+      

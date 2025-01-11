@@ -1,0 +1,213 @@
+
+.länkar{
+margin: 10px;
+text-decoration: none;
+}
+
+.footer .footerinsida{
+max-width: 800px;
+margin: 0 auto;
+  }
+
+  .footer p {
+    margin: 10px 0;
+    font-weight: 400;
+
+  }
+
+  .footer .länkar{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+.footer länkar li{
+    margin: 0 10px;
+  }
+
+.footer .länkar a{
+    color: rgb(28, 255, 7);
+   font-size: 1.5em;
+   transition: transform 0.3s, color 0.3s;
+  }
+
+.footer .länkar a:hover{
+    color: #FFD700;
+    transform: scale(1.2);
+  }
+
+
+
+  .footer{
+    background: linear-gradient(to right, #00f5e5, #000000);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-size: 0.9em;
+    position: relative;
+  }
+
+
+
+
+body{
+    background-image: url('6c2fec5ef39642febd0b6ed1829fc695.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:0;
+    
+  }
+  
+  .ommig{
+  background-color: rgb(255, 255, 255, 0.8);
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: popUp 1.5s ease-out;
+  animation: fadeIn 2s ease-in-out; 
+ }
+  h1{
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.0);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: -10px;
+    border-radius: 10px;
+  }
+  
+  .bildotext{
+    display: flex;
+    align-items: center;
+  width: 800px;
+
+  
+  }
+  
+  .bildotext img{
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 20px;
+    flex-direction: space-between;
+
+  }
+  
+  .bildotextandrahållet{
+    display: flex;
+    align-items: center; 
+    flex-direction: row-reverse; 
+  }
+  
+  .bildotextandrahållet img{
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-left: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1em;
+    color: white;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  
+  .menu {
+    display: flex;
+    gap: 1em;
+  }
+  
+  .menu li{
+    margin: 0 15px;
+  
+  }
+  
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+  
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      text-align: right;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  
+    .menu.active {
+      display: block;
+    }
+  
+    .menu a {
+      padding: 1em;
+      border-bottom: 1px solid white;
+    }
+  }
+
+
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popUp {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
